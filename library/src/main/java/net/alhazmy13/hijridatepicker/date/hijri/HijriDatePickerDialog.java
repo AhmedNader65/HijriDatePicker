@@ -1025,7 +1025,7 @@ public class HijriDatePickerDialog extends DialogFragment implements
         if (mMaxDate != null) return mMaxDate;
         UmmalquraCalendar output = new UmmalquraCalendar(getTimeZone(), getLocale());
         output.set(UmmalquraCalendar.YEAR, mMaxYear);
-        output.set(UmmalquraCalendar.DAY_OF_MONTH, 31);
+        output.set(UmmalquraCalendar.DAY_OF_MONTH, 30);
         output.set(UmmalquraCalendar.MONTH, UmmalquraCalendar.DECEMBER);
         return output;
     }
